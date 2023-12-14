@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-guru-hw-18"
+version = "0.1.0"
+description = "homework 18"
+authors = ["Bryazgin Sergey <sergeybryazgin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "2.0.0b4"
+pytest = "7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
